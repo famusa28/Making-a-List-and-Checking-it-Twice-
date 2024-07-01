@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Making a List</title>
+</head>
+<body>
+    <script>
+        let header = document.createElement("h1");
+        header.textContent = "Indiana Spring Flowers";
+        document.body.append(header);
+
+        let paragraph = document.createElement("p");
+        paragraph.textContent = "Here are some beautiful flowers you can find during spring in Indiana.";
+        document.body.append(paragraph);
+
+        let ol = document.createElement("ol");
+
+        let li1 = document.createElement("li");
+        li1.textContent = "Tulip";
+        ol.append(li1);
+
+        let li2 = document.createElement("li");
+        li2.textContent = "Daffodil";
+        ol.append(li2);
+
+        let li3 = document.createElement("li");
+        li3.textContent = "Crocus";
+        ol.append(li3);
+
+        document.body.append(ol);
+    </script>
+</body>
+</html>
